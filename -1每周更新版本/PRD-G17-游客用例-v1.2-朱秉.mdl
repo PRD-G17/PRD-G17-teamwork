@@ -96,7 +96,7 @@
 		    (object Dependency_Relationship
 			quid       	"5A1D38340380"
 			stereotype 	"include"
-			supplier   	"Use Case View::手机号码认证"
+			supplier   	"Use Case View::手机号码验证"
 			quidu      	"5A1D382200B5")
 		    (object Dependency_Relationship
 			quid       	"5A1D383903D6"
@@ -105,7 +105,7 @@
 			quidu      	"5A1D382C0352")))
 	    (object UseCase "实名认证"
 		quid       	"5A1D37680106")
-	    (object UseCase "手机号码认证"
+	    (object UseCase "手机号码验证"
 		quid       	"5A1D382200B5")
 	    (object UseCase "邮箱验证"
 		quid       	"5A1D382C0352")
@@ -399,7 +399,7 @@
 				    (908, 1312))
 				line_style 	0)))
 		    (object AssociationViewNew "$UNNAMED$11" @12
-			location   	(800, 1155)
+			location   	(800, 1156)
 			font       	(object Font
 			    size       	10
 			    face       	"Arial"
@@ -415,26 +415,26 @@
 			roleview_list 	(list RoleViews
 			    (object RoleView "$UNNAMED$12" @13
 				Parent_View 	@12
-				location   	(0, -157)
+				location   	(0, -156)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5A1D374401EF"
 				client     	@12
 				supplier   	@3
 				vertices   	(list Points
-				    (800, 1155)
-				    (800, 1057))
+				    (800, 1156)
+				    (800, 1060))
 				line_style 	0)
 			    (object RoleView "$UNNAMED$13" @14
 				Parent_View 	@12
-				location   	(0, -157)
+				location   	(0, -156)
 				stereotype 	TRUE
 				line_color 	3342489
 				quidu      	"5A1D374401F5"
 				client     	@12
 				supplier   	@4
 				vertices   	(list Points
-				    (800, 1155)
+				    (800, 1156)
 				    (800, 1253))
 				line_style 	0)))
 		    (object UseCaseView "Use Case View::实名认证" @15
@@ -500,7 +500,7 @@
 			    (689, 896)
 			    (428, 896))
 			line_style 	0)
-		    (object UseCaseView "Use Case View::手机号码认证" @18
+		    (object UseCaseView "Use Case View::手机号码验证" @18
 			location   	(800, 560)
 			font       	(object Font
 			    size       	10
@@ -518,7 +518,7 @@
 			    nlines     	2
 			    max_width  	630
 			    justify    	0
-			    label      	"手机号码认证")
+			    label      	"手机号码验证")
 			icon_style 	"Icon"
 			line_color 	3342489
 			fill_color 	13434879
@@ -560,7 +560,7 @@
 			    default_color 	TRUE)
 			stereotype 	(object SegLabel @21
 			    Parent_View 	@20
-			    location   	(681, 779)
+			    location   	(681, 781)
 			    font       	(object Font
 				size       	10
 				face       	"Arial"
@@ -585,7 +585,7 @@
 			supplier   	@18
 			vertices   	(list Points
 			    (800, 837)
-			    (800, 721))
+			    (800, 724))
 			line_style 	0)
 		    (object DependencyView "" @22
 			font       	(object Font
