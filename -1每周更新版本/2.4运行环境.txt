@@ -1,0 +1,8 @@
+2.4运行环境
+硬件环境：		
+服务器：选用2个CPU，16核，内存6G，硬盘1T, 
+软件环境：
+	 服务端：操作系统选用Red Hat Enterprise Linux 数据库选用SQL server2005
+	 客户端：操作系统选用Windows Xp/Vista/7/8/10、Linux、Mac OS等 数据库选用SQL server2005
+网络环境：
+	 部署在校园网中
